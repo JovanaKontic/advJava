@@ -6,8 +6,6 @@ public class MainRun {
         sayHello.printSomething();
         GoodGreeting sayGood = new GoodGreeting();
         sayGood.printSomething();
-        /*** good things***/
-
     }
 
 }
