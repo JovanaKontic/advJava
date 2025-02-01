@@ -5,12 +5,13 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class StreamUtilsTest {
+class StreamsForPracticeTest {
     StreamsForPractice streamsPractice = new StreamsForPractice();
     private List<String> weekdays = Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
 
     @Test
     public void testSorted() {
+
         List<String> actual = streamsPractice.sorted(weekdays);
 
         List<String> expected = Arrays.asList("Friday", "Monday", "Thursday", "Tuesday", "Wednesday");
